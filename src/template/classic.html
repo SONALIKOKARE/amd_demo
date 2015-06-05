@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+<div id="classic_template">
+	<button title="theme" class="homePage">Back to home</button>
+	<div class="infoContainer">
+		<div class="title">{{title}}</div>
+		{{#each Employees}}
+		<div class="emp_details">
+			<div class="emp_id">{{emp_id}}</div>
+			<div class="emp_name">{{fullName emp_name}}</div>
+		</div>
+		{{/each}}
+	</div>
+</div>
